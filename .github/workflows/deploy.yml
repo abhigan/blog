@@ -4,6 +4,7 @@ on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       - uses: actions/checkout@main
       - uses: abhigan/fork-aws-s3@main
