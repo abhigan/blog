@@ -7,7 +7,7 @@ jobs:
     environment: prod
     steps:
       - uses: actions/checkout@main
-      - uses: abhigan/fork-aws-s3@main
+      - uses: abhigan/fork-docusaurus-aws-s3@main
         env:
           AWS_DEFAULT_REGION: "ap-south-1"
           AWS_S3_BUCKET: ${{ vars.AWS_S3_BUCKET }}
