@@ -38,6 +38,7 @@ const config = {
         blog: {
           routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
+          blogTitle: 'Blog',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,6 +59,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            href: '/tags',
+            label: 'Tags',
+            position: 'left',
+          },
+          {
+            href: '/archive',
+            label: 'Archive',
+            position: 'left',
+          },
           {
             href: 'https://github.com/abhigan',
             label: 'GitHub',
