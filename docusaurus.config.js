@@ -88,7 +88,7 @@ const config = {
       },
       footer: {
         style: 'dark',        
-        copyright: `Copyright © ${new Date().getFullYear()} Abhishek Ganguly`,
+        copyright: `Copyright © ${new Date().getFullYear()} Abhishek Ganguly. Unauthorized use and/or duplication of this material without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to the author and the site with appropriate and specific direction to the original content. Materials quoted from other sources continue to be owned by their respective owners.`,
       },
       prism: {
         theme: prismThemes.github,
